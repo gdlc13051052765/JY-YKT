@@ -1,0 +1,15 @@
+
+extern void	InitSaveRecordSub(unsigned char);//3?¨º??¡¥????
+extern unsigned char	RecordBlockDiag(unsigned char);//00 -?T???? ;11-?¨²¨¨?2??¡ä2¨¦; 22-¨¨?2??a?¡ä2¨¦????
+extern void	SaveRecordSub(unsigned char);//¡ä?¡ä¡é??¡¤?????
+extern unsigned char		RecordFullDiag(void);//????¡ä?¡ä¡é¨º?¡¤?¨°??¨²????
+extern unsigned char		RecordDatasToBuffer(unsigned char,unsigned char *);//¡ä?¡ä¡é????¦Ì??¨²¨¨YD¡ä¨¨??o¡ä?
+extern void	ChgTimeToRecordDatas(unsigned char * ,unsigned char * );
+extern void	ChgRecordDatasToTime(unsigned char * ,unsigned char * );
+extern void	SaveRecordBakSub(void);//¡À¡ê¡ä?¡ä¨ª?¨®????¦Ì?¡À?¡¤Y
+extern void	ClrConsumDatasBak(void);//2¨¢3y¡ä¨ª?¨®????
+
+
+
+
+
